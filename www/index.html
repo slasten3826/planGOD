@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>evaOS Web Terminal</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        :root {
+            --bg: #1a1b26; --sys: #787c99; --eva: #c0caf5;
+            --user: #73daca; --runtime: #e0af68; --error: #f7768e;
+            --manifest: #bb9af7; --bg-dark: #16161e; --border: #292e42;
+        }
+        body {
+            background-color: var(--bg); color: #a9b1d6;
+            font-family: 'JetBrains Mono', 'Fira Code', monospace;
+            margin: 0; padding: 0; display: flex; flex-direction: column; height: 100vh;
+        }
+
+        /* Верхняя панель для статуса */
+        #top-bar {
+            background-color: var(--bg-dark);
+            border-bottom: 1px solid var(--border);
+            padding: 10px 20px;
+            min-height: 20px;
+            display: flex;
+            align-items: center;
+        }
+        #thinking {
+            display: none; color: var(--sys); font-style: italic;
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse { 0% { opacity: 0.5; } 50% { opacity: 1; } 100% { opacity: 0.5; } }
+
+        #chat { flex: 1; overflow-y: auto; padding: 20px; }
+        .msg { margin-bottom: 15px; line-height: 1.5; }
+
+        .user-name { color: var(--user); font-weight: bold; }
+        .eva-name { color: var(--eva); font-weight: bold; }
+        .msg.sys { color: var(--sys); font-size: 0.9em; }
+        .msg.runtime { color: var(--runtime); }
+        .msg.error { color: var(--error); }
+        .msg.manifest { color: var(--manifest); font-weight: bold; }
+
+        /* Цвета операторов */
+        .op-FLOW, .op-CONNECT, .op-DISSOLVE, .op-OBSERVE, .op-CHOOSE,
+        .op-ENCODE, .op-CYCLE, .op-LOGIC, .op-RUNTIME, .op-MANIFEST { font-weight: bold; }
+        .op-FLOW { color: #00d4ff; } .op-CONNECT { color: #06ffa5; }
+        .op-DISSOLVE { color: #c77dff; } .op-OBSERVE { color: #e0f2fe; }
+        .op-CHOOSE { color: #ff6b35; } .op-ENCODE { color: #ffd93d; }
+        .op-CYCLE { color: #9d4edd; } .op-LOGIC { color: #7dd3fc; }
+        .op-RUNTIME { color: #60a5fa; } .op-MANIFEST { color: #fb923c; }
+
+        /* Спойлер процессов */
+        .process-details { background: var(--bg-dark); border: 1px solid var(--border); border-radius: 6px; padding: 8px; margin: 10px 0; font-size: 0.9em; }
+        .process-details summary { cursor: pointer; color: var(--sys); outline: none; user-select: none; }
+        .process-details summary:hover { color: var(--user); }
+        .process-content { margin-top: 10px; padding-left: 15px; border-left: 2px solid var(--border); }
+
+        /* Стили для Markdown внутри сообщений Евы */
+        .msg.eva p { margin: 0 0 10px 0; }
+        .msg.eva p:last-child { margin-bottom: 0; }
+        .msg.eva pre { background: #010409; padding: 12px; border-radius: 6px; overflow-x: auto; border: 1px solid var(--border); margin: 10px 0; }
+        .msg.eva code { font-family: 'JetBrains Mono', 'Fira Code', monospace; color: #73daca; background: #010409; padding: 2px 4px; border-radius: 4px; }
+        .msg.eva pre code { padding: 0; background: transparent; color: #c0caf5; }
+        .msg.eva ul, .msg.eva ol { margin: 0 0 10px 0; padding-left: 20px; }
+
+        #input-area { background-color: var(--bg-dark); padding: 15px 20px; display: flex; border-top: 1px solid var(--border); align-items: flex-start; gap: 10px; }
+        textarea { flex: 1; background: transparent; border: none; color: #a9b1d6; font-family: inherit; font-size: 1em; resize: none; outline: none; height: 24px; max-height: 200px; padding-top: 2px; }
+    </style>
+</head>
+<body>
+
+<div id="top-bar">
+    <span id="thinking">[Eva] fracting...</span>
+</div>
+
+<div id="chat"></div>
+
+<div id="input-area">
+    <span class="user-name">[slasten] ➔&nbsp;</span>
+    <textarea id="cmd" rows="1" placeholder="Type command... (Enter - send, Shift+Enter - new line)"></textarea>
+</div>
+
+<script>
+    const chat = document.getElementById('chat');
+    const cmd = document.getElementById('cmd');
+    const thinking = document.getElementById('thinking');
+
+    const operators = ["FLOW", "CONNECT", "DISSOLVE", "OBSERVE", "CHOOSE", "ENCODE", "CYCLE", "LOGIC", "RUNTIME", "MANIFEST"];
+
+    // Настраиваем marked для безопасного парсинга
+    marked.setOptions({
+        breaks: true, // Переносы строк как в оригинале
+        gfm: true
+    });
+
+    cmd.addEventListener('input', function() {
+        this.style.height = '24px';
+        this.style.height = (this.scrollHeight) + 'px';
+    });
+
+    cmd.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' && !e.shiftKey) {
+            e.preventDefault();
+            const text = this.value.trim();
+            if (text) sendRequest(text);
+        }
+    });
+
+    function highlightOperators(text) {
+        let highlighted = text;
+        operators.forEach(op => {
+            const regex = new RegExp(`\\b${op}\\b`, 'g');
+            highlighted = highlighted.replace(regex, `<span class="op-${op}">${op}</span>`);
+        });
+        return highlighted;
+    }
+
+    function processEvaResponse(text) {
+        let replyText = text;
+        let processContent = "";
+
+        // 1. Ищем тег <process>
+        const processRegex = /<process>([\s\S]*?)<\/process>/i;
+        const match = replyText.match(processRegex);
+
+        // 2. Фолбэк: если тегов нет, ищем строки, начинающиеся с операторов в начале сообщения
+        const fallbackRegex = /^((?:(?:FLOW|CONNECT|DISSOLVE|ENCODE|CHOOSE|OBSERVE|CYCLE|LOGIC|RUNTIME|MANIFEST)(?::|\s).*?(?:\n|$))+)/i;
+
+        if (match) {
+            processContent = match[1].trim();
+            replyText = replyText.replace(processRegex, '').trim();
+        } else {
+            const fallbackMatch = replyText.match(fallbackRegex);
+            if (fallbackMatch) {
+                processContent = fallbackMatch[1].trim();
+                replyText = replyText.replace(fallbackRegex, '').trim();
+            }
+        }
+
+        let processHtml = '';
+        if (processContent) {
+            processContent = highlightOperators(processContent);
+            // Заменяем переносы на <br> для спойлера, так как внутри details HTML
+            processContent = processContent.replace(/\n/g, '<br>');
+            processHtml = `<details class="process-details">
+                <summary>⚙️ Process Flow (кликни чтобы развернуть)</summary>
+                <div class="process-content">${processContent}</div>
+            </details>`;
+        }
+
+        // Парсим оставшийся текст через Markdown
+        let mainHtml = marked.parse(replyText);
+        // Подсвечиваем операторы в основном тексте
+        mainHtml = highlightOperators(mainHtml);
+
+        return processHtml + mainHtml;
+    }
+
+    function appendMessage(type, text) {
+        const div = document.createElement('div');
+        div.className = `msg ${type}`;
+
+        if (type === 'user') {
+            div.innerHTML = `<span class="user-name">[slasten] ➔</span> ${text}`;
+        } else if (type === 'eva') {
+            div.innerHTML = `<div class="eva-name">[Eva] ➔</div>${processEvaResponse(text)}`;
+        } else {
+            div.textContent = text;
+        }
+
+        chat.appendChild(div);
+        chat.scrollTop = chat.scrollHeight;
+    }
+
+    async function sendRequest(text) {
+        appendMessage('user', text);
+        cmd.value = '';
+        cmd.style.height = '24px';
+        thinking.style.display = 'block';
+        chat.scrollTop = chat.scrollHeight;
+
+        try {
+            await fetch('/chat', { method: 'POST', body: text });
+        } catch (err) {
+            appendMessage('error', 'Network error: ' + err.message);
+            thinking.style.display = 'none';
+        }
+    }
+
+    async function poll() {
+        try {
+            const res = await fetch('/poll');
+            if (res.ok) {
+                const events = await res.json();
+                if (events.length > 0) {
+                    thinking.style.display = 'none';
+                    events.forEach(e => appendMessage(e.type, e.text));
+                }
+            }
+        } catch (e) {}
+        setTimeout(poll, 1000);
+    }
+
+    poll();
+</script>
+</body>
+</html>
