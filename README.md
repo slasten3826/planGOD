@@ -72,7 +72,7 @@ planGOD/
   server/               — HTTP сервер + веб интерфейс
   optics/               — линзы (домены знаний)
   workspace/            — рабочая зона агента (read-write)
-  runtime/storage/      — долгосрочная память (momentum.json)
+  runtime/storage/      — долгосрочная память (momentum.lua)
 ```
 
 ## Линзы
