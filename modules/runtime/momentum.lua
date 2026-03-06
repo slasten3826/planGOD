@@ -1,5 +1,6 @@
 -- modules/runtime/momentum.lua
--- E_momentum: накопление инерции паттернов
+-- E_momentum: инерция структурных переходов (рёбра, не текст)
+-- Привычка = (source_module → target_module, domain) повторившееся N раз
 -- Чистые функции, без IO
 
 local momentum = {}
@@ -11,8 +12,9 @@ local DECAY_RATES = {
 }
 local PRUNE_THRESHOLD = 0.05
 local HABIT_THRESHOLD = 0.75
-local BASE_RATE = 0.15
+local BASE_RATE       = 0.15
 
+-- Домены важнее в контексте архитектуры/процесслэнга
 local DOMAIN_BOOST = {
     architecture = 1.4,
     processlang  = 1.3,
@@ -24,52 +26,52 @@ local DOMAIN_BOOST = {
     general      = 0.8,
 }
 
-local QUALITY_BOOST = {
-    high   = 1.5,
-    medium = 1.0,
-    low    = 0.4,
+-- Тип ребра влияет на вес
+local EDGE_TYPE_BOOST = {
+    LOGIC    = 1.3,   -- выполнение кода — сильный паттерн
+    RUNTIME  = 1.2,   -- запись в память
+    MANIFEST = 1.1,   -- финальный ответ
+    OBSERVE  = 1.0,
+    CONNECT  = 0.9,
+    ENCODE   = 0.9,
+    FLOW     = 0.8,
+    CYCLE    = 0.7,
 }
 
-local function make_key(insight)
-    local domain       = insight.domain    or "general"
-    local ts           = insight.timestamp or os.time()
-    -- UTF-8 безопасная обрезка ключа
-    local raw = (insight.content or ""):gsub("%s+", "_")
-    local count, i = 0, 1
-    while i <= #raw and count < 20 do
-        local b = raw:byte(i)
-        if b < 128 then i = i + 1
-        elseif b < 224 then i = i + 2
-        elseif b < 240 then i = i + 3
-        else i = i + 4 end
-        count = count + 1
+-- Ключ ребра: source→target в домене (без timestamp — накапливаем одно ребро)
+local function make_key(edge)
+    local src    = edge.source or "UNKNOWN"
+    local tgt    = edge.target or "UNKNOWN"
+    local domain = edge.domain or "general"
+    return src .. "→" .. tgt .. ":" .. domain
+end
+
+local function initial_weight(edge)
+    local db = DOMAIN_BOOST[edge.domain or "general"]          or 1.0
+    local tb = EDGE_TYPE_BOOST[edge.target or ""]              or 1.0
+    return BASE_RATE * db * tb
+end
+
+-- Обновить E_momentum одним ребром перехода
+-- edge = { source, target, domain, tick_id? }
+function momentum.update(E_momentum, edge)
+    if not edge or not edge.source or not edge.target then
+        return E_momentum, nil
     end
-    local content_hash = raw:sub(1, i - 1)
-    return domain .. ":" .. content_hash .. ":" .. tostring(ts)
-end
 
-local function initial_weight(insight)
-    local db = DOMAIN_BOOST[insight.domain   or "general"] or 1.0
-    local qb = QUALITY_BOOST[insight.quality or "medium"]  or 1.0
-    return BASE_RATE * db * qb
-end
-
-function momentum.update(E_momentum, insight)
-    if not insight or not insight.content then return E_momentum, nil end
-
-    local key   = make_key(insight)
+    local key   = make_key(edge)
     local entry = E_momentum[key]
 
     if entry then
-        entry.w    = math.min(1.0, entry.w + initial_weight(insight))
+        entry.w    = math.min(1.0, entry.w + initial_weight(edge))
         entry.hits = (entry.hits or 1) + 1
         entry.last = os.time()
     else
         E_momentum[key] = {
-            w       = initial_weight(insight),
-            domain  = insight.domain  or "general",
-            quality = insight.quality or "medium",
-            content = insight.content,
+            w       = initial_weight(edge),
+            source  = edge.source,
+            target  = edge.target,
+            domain  = edge.domain  or "general",
             created = os.time(),
             last    = os.time(),
             hits    = 1,
