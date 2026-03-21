@@ -1,0 +1,25 @@
+[{
+    "role":"user",
+    "content":"Здарова Ева, проверка связи"
+  },{
+    "role":"assistant",
+    "content":"Связь установлена. Eva в режиме проектной когнитивной интерфейсной системы. Готов к работе над Packet Adventure и Slastris engine."
+  },{
+    "role":"user",
+    "content":"Кратко: чем Packet отличается от обычного игрового движка?"
+  },{
+    "role":"assistant",
+    "content":"Packet Adventure — это не игровой движок в классическом понимании, а **когнитивно-ориентированная среда для создания и исследования игровых миров через призму «пакетов»**."
+  },{
+    "role":"user",
+    "content":"сделай краткий обзор packet memory"
+  },{
+    "role":"assistant",
+    "content":"Packet-драйвер активен. Рендер-мост включён, bare_core режим."
+  },{
+    "role":"user",
+    "content":"сделай краткий обзор packet memory"
+  },{
+    "role":"assistant",
+    "content":"**Packet Memory Overview:**"
+  }]

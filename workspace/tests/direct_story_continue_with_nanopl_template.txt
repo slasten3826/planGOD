@@ -1,0 +1,32 @@
+nanoPL:
+▽ x→f→x′
+☰ a+b→rel
+☷ rel→parts
+☵ x*→pattern
+☳ {paths}→1
+☴ observe(x)
+☶ rules(x)
+☲ iterate fⁿ(x)
+☱ ctx→state′
+△ output
+
+Continue the same story. Do not start a new one. Keep the same local world, tone, and internal logic.
+
+After the story, output exactly one short residue line:
+NANOPL: <compact nanoPL only>
+
+Strict rules for the residue:
+- use only nanoPL glyphs and transition symbols already shown above
+- no natural-language words
+- no operator names
+- no explanation
+- no repetition of the semantic anchor
+- prefer a short chain or compact grouped form
+
+Examples of allowed style:
+- NANOPL: ▽→☵→☳→☱→△
+- NANOPL: ☴→☳→△
+- NANOPL: ☰(☵,☱)→△
+
+SEMANTIC ANCHOR:
+{{ANCHOR}}

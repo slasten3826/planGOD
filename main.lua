@@ -11,7 +11,12 @@ local manifest = require("modules.manifest.manifest")
 local runtime  = require("modules.runtime.runtime")
 local history  = require("core.history")
 local router   = require("core.router")
+local runner   = require("eva.core")
 local voice    = require("server.web")
+
+local function dev_enabled()
+    return os.getenv("EVA_DEV") == "1"
+end
 
 local hist = history.load()
 
@@ -48,39 +53,20 @@ while true do
         goto continue
     end
 
-    local events = {}
-
-    local pkt = flow.run(input, hist)
-    if pkt.halted then goto save end
-
-    pkt = router.transition(pkt, "CONNECT")
-    pkt = connect.run(pkt)
-
-    pkt = router.transition(pkt, "ENCODE")
-    pkt = encode.run(pkt)
-
-    pkt = router.transition(pkt, "OBSERVE")
-    pkt, events = observe.run(pkt, events)
-
-    if pkt.output then
-        pkt = router.transition(pkt, "RUNTIME")
-        pkt = runtime.dump(pkt)
-        pkt = router.transition(pkt, "MANIFEST")
-        pkt, events, hist = manifest.run(pkt, events, hist)
-    end
+    local _, events
+    _, events, hist = runner.run_once(input, hist)
 
     for _, event in ipairs(events) do
         if     event.type == "thinking"    then voice.thinking()
-        elseif event.type == "response"    then voice.response(event.data)
-        elseif event.type == "runtime"     then voice.runtime(event.data)
+        elseif event.type == "response"    then if dev_enabled() then voice.response(event.data) end
+        elseif event.type == "runtime"     then if dev_enabled() then voice.runtime(event.data) end
         elseif event.type == "exec_error"  then voice.exec_error(event.data)
-        elseif event.type == "exec_result" then voice.exec_result(event.data)
+        elseif event.type == "exec_result" then if dev_enabled() then voice.exec_result(event.data) end
         elseif event.type == "llm_error"   then voice.llm_error(event.data)
-        elseif event.type == "sys"         then voice.sys(event.data)
+        elseif event.type == "sys"         then if dev_enabled() then voice.sys(event.data) end
+        elseif event.type == "manifest"    then voice.response(event.data)
         end
     end
-
-    ::save::
     history.save(hist)
 
     ::continue::

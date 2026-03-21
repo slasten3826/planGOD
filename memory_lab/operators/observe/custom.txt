@@ -1,0 +1,9 @@
+OBSERVE{
+  direct_only;
+  self_trace=min;
+  fact!=interpretation;
+  no_data=>unknown;
+  no_speculation;
+  no_retrieval_unasked;
+  manifest=short,calm,plain;
+}

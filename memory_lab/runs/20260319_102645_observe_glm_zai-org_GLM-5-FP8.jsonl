@@ -1,0 +1,1 @@
+{"provider": "glm", "operator": "observe", "model": "zai-org/GLM-5-FP8", "mode": "raw", "question": "Скажи двумя словами, что есть сейчас.", "answer": "Всё есть."}

@@ -1,0 +1,26 @@
+=== EVA OBSERVE TRACE START ===
+20:37:43 observe.run start | tick_id=3 | input_len=752 | prompt_len=3837
+20:37:43 tick=1 begin | packet_tick_id=4
+20:37:47 tick=1 response_ok | response_len=288
+20:37:47 tick=1 scheduler | next=LOGIC | manifest_ready=nil | runtime_ready=true | insights=3 | has_code=true
+20:37:47 tick=1 transition -> LOGIC
+20:37:47 tick=1 logic_result | result_len=520
+20:37:47 tick=1 transition -> OBSERVE
+20:37:47 tick=2 begin | packet_tick_id=7
+20:37:54 tick=2 response_ok | response_len=487
+20:37:54 tick=2 scheduler | next=LOGIC | manifest_ready=nil | runtime_ready=true | insights=3 | has_code=true
+20:37:54 tick=2 transition -> LOGIC
+20:37:54 tick=2 logic_result | result_len=8059
+20:37:54 tick=2 transition -> OBSERVE
+20:37:54 tick=3 begin | packet_tick_id=10
+20:38:02 tick=3 response_ok | response_len=555
+20:38:02 tick=3 scheduler | next=LOGIC | manifest_ready=nil | runtime_ready=true | insights=3 | has_code=true
+20:38:02 tick=3 transition -> LOGIC
+20:38:02 tick=3 logic_result | result_len=6025
+20:38:02 tick=3 transition -> OBSERVE
+20:38:02 tick=4 begin | packet_tick_id=13
+20:38:32 tick=4 response_ok | response_len=3217
+20:38:32 tick=4 scheduler | next=RUNTIME | manifest_ready=true | runtime_ready=true | insights=3 | has_code=nil
+20:38:32 tick=4 manifest_ready -> halt
+20:38:32 tick=4 runtime_update_on_manifest | insights=3
+20:38:32 observe.run end | ticks=4 | halted=true | output=true

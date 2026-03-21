@@ -1,0 +1,12 @@
+=== EVA DEBUG TRACE START ===
+[2026-03-21 12:14:55] run_id=20260321_121455_8494
+[12:14:55] meta=input_len=23 | mode=active | provider=default | model=default
+12:14:55 observe.run start | tick_id=3 | input_len=23 | prompt_len=3808
+12:14:55 tick=1 begin | packet_tick_id=4
+12:14:55 tick=1 llm_error | API ERROR (GLM HTTP 0): 
+[curl stderr]
+curl: (6) Could not resolve host: api.us-west-2.modal.direct
+
+12:14:55 observe.run end | ticks=1 | halted=false | output=false
+12:14:55 run.finish | halted=false | output=false
+=== EVA DEBUG TRACE END ===

@@ -1,0 +1,807 @@
+{
+  "results":[{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells. Weak: Risk/story link vague. Keep it, but define 'risk' concretely.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":1
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: clear progression from capture to crafted spells. Weak: risk/story link vague, may feel abstract. Keep it, but tighten the feedback loop between spells and story outcomes.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":2
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress). Weak: Overly abstract; crafting may feel menu-driven. Keep it, but needs tactile feedback and clearer in-world justification for the packet→spell metaphor.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":3
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from packet capture to puzzle-solving with tangible rewards (spells). Weak: Risk of becoming repetitive if challenges lack variety. Keep it, but ensure diverse challenges and meaningful story integration.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":4
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic core loop (capture-craft-test). Weak: Risk of repetitive crafting without depth. Keep it, but add more varied fragment uses and spell interactions.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":5
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells. Weak: Risk of crafting becoming repetitive. Keep it, but add more varied challenge types.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":6
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells to challenges. Weak: Risk/story link feels abstract. Keep it, but solidify the narrative hook to the mechanics.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":7
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress) with tangible in-game analogs for packets. Weak: Risk/story link vague; crafting may become repetitive. Keep it, but flesh out the 'risk' mechanic to integrate with story consequences.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":8
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells to challenges. Weak: Risk/story link feels abstract. Keep it, but solidify the narrative hook to the mechanics.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":9
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from data to tools to puzzles. Weak: Risk of repetitive crafting loops. Keep it, but add more varied fragment sources and spell effects.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":10
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress). Weak: Abstract verbs may lack tactile feedback. Keep it, but prototype the crafting loop first.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":11
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Core loop of capturing network data to craft tools is novel and thematic. Weak: Risk of becoming a tedious collect-a-thon without tight puzzle design. Keep it, but focus the crafting on specific, meaningful puzzle solutions.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":12
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic core loop. Weak: Risk/story link vague, crafting may become repetitive. Keep it, but flesh out the risk mechanic.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":13
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells to challenges. Weak: Risk/story link feels abstract. Keep it, but ground 'risk' in concrete network consequences.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":14
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells to challenges. Weak: Risk/story link vague, may feel abstract. Keep core loop, refine narrative integration.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":15
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress). Weak: Risk of crafting becoming repetitive menu navigation. Keep it, but focus on making the crafting step tactile and immediate.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":16
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: deep thematic integration of networking into core verbs. Weak: crafting may become repetitive without varied challenges. Keep it, but ensure challenges evolve beyond simple pattern matching.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":17
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic progression from packet data to game mechanics. Weak: Risk of becoming repetitive without varied challenges. Keep it, but ensure challenges are diverse and story integration is deep.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":18
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic progression from packet data to game mechanics. Weak: Risk of becoming repetitive without varied challenges. Keep it, but ensure challenges diversify beyond the core loop.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":19
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted utility. Weak: Risk/story link may feel abstract. Keep it, but ground 'risk' in tangible network consequences.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":20
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic core loop. Weak: Risk/reward vague, crafting may become repetitive. Keep and refine.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":21
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic progression from packet data to game mechanics. Weak: Risk of becoming repetitive without varied challenges. Keep it, but ensure challenges are diverse and story integration is deep.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":22
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic core loop. Weak: Risk of repetitive crafting. Keep it, but add procedural challenges to vary the test phase.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":23
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: clear progression (capture→craft→test→progress). Weak: overly abstract, risks feeling like a menu simulator. Keep, but ground spells in tangible network puzzles.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":24
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic core loop of capture-craft-test. Weak: Risk of becoming repetitive without varied challenges. Keep it, but ensure challenge diversity.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":25
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic progression from packet data to game mechanics. Weak: Risk of becoming repetitive without varied challenges. Keep it, but ensure challenge diversity.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":26
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress). Weak: May become repetitive. Keep it, but add more varied challenge types.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":27
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: novel network-to-magic crafting with clear verbs. Weak: risk of becoming a repetitive matching puzzle. Keep it, but add more dynamic fragment interactions.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":28
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic core loop. Weak: Risk of repetitive crafting without varied challenges. Keep it, but ensure challenges demand diverse spell combinations.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":29
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: clear progression from data to tools to puzzles. Weak: risk of crafting becoming repetitive menu navigation. Keep it, but focus on making the capture/craft loop feel direct and tactile.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":30
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic core loop of capture-craft-test. Weak: Risk of crafting becoming repetitive menu navigation. Keep it, but focus on making fragment capture active and spell use impactful.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":31
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from data to tools to challenges. Weak: Risk of crafting becoming repetitive menu navigation. Keep it, but focus on making the capture and craft steps more active and tactile.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":32
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic core loop (capture→craft→test). Weak: Risk/story link vague, may feel repetitive. Keep it, but flesh out the 'progress' hook.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":33
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress). Weak: Risk of crafting becoming repetitive menu navigation. Keep it, but focus on making the crafting step tactile and immediate.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":34
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic core loop (capture→craft→test). Weak: Risk of repetitive crafting without meaningful progression. Keep it, but add more varied challenge types and spell synergies.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":35
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress). Weak: Overly abstract; may feel like menu navigation, not action. Keep it, but needs tactile feedback and clearer in-game risk.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":36
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Direct, thematic link between networking concepts and magic. Weak: Risk of becoming repetitive puzzle grind. Keep it, but add more dynamic spell interactions and enemy types to sustain engagement.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":37
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells. Weak: Risk/story link may feel abstract. Keep it, but solidify the 'progress' hook.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":38
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress). Weak: May become repetitive without varied challenges. Keep it, but add more diverse fragment sources and challenge types.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":39
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress) with tangible in-game objects. Weak: Risk of becoming repetitive if challenges are similar. Keep it, but ensure varied challenges and meaningful spell effects.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":40
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from data to tools to puzzles. Weak: Risk of repetitive crafting. Keep it, but add more varied challenge types beyond simple tests.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":41
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress). Weak: May feel mechanical without deeper puzzle variety. Keep it, but add more emergent interactions between crafted spells.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":42
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic progression from packet data to gameplay verbs. Weak: Risk/story link feels abstract. Keep it, but solidify the 'risk' mechanic.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":43
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells to challenges. Weak: Risk/story link feels abstract. Keep it, but solidify the narrative hook to make 'risk' tangible.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":44
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic core loop (capture→craft→test). Weak: Risk of repetitive crafting without meaningful choice. Keep it, but needs deeper spell interactions and challenge variety.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":45
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic progression from packet data to gameplay verbs. Weak: Risk/story link feels abstract. Keep it, but solidify the 'risk' mechanic.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":46
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells to challenges. Weak: Risk/story link feels abstract. Keep it, but ground 'risk' in concrete network consequences.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":47
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: clear progression from data to tools to challenges. Weak: risk/story link vague, may feel abstract. Keep it, but flesh out the 'progress' hook.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":48
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: clear progression from data to tools to challenges. Weak: risk/story link is vague. Keep it, but define the 'risk' mechanic concretely.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":49
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells to challenges. Weak: Risk/story link vague, may feel abstract. Keep it, but solidify the 'risk' mechanic.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":50
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress). Weak: May become repetitive; crafting complexity unclear. Keep it, but add variety in challenges and spell effects.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":51
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress). Weak: Risk of crafting becoming repetitive menu navigation. Keep it, but focus on making the crafting step more active and visual.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":52
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress). Weak: May become repetitive; crafting spells from fragments could feel abstract. Keep it, but add visual/tactile feedback for crafting.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":53
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells to challenges. Weak: Risk/story link may feel abstract. Keep it, but solidify the narrative hook to the mechanics.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":54
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic core loop. Weak: Risk of repetitive crafting without depth. Keep, but needs progression tuning.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":55
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: clear progression from packet data to usable tools; Weak: risk of crafting becoming repetitive menu navigation. Keep it, but add more dynamic spell interactions.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":56
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells to challenges. Weak: Risk/story link feels abstract. Keep it, but ground 'risk' in concrete network consequences.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":57
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells. Weak: Risk of repetitive crafting loops. Keep it, but add more varied challenge types.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":58
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress). Weak: Overly abstract; crafting may feel menu-driven. Keep, but needs tactile feedback and clearer in-world justification for the mechanics.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":59
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells to challenges. Weak: Risk/story link may feel abstract. Keep it, but solidify the narrative hook to the mechanics.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":60
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic core loop of capture-craft-test. Weak: Risk of repetitive crafting without varied challenges. Keep it, but ensure challenges demand diverse spell combinations.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":61
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress) with tangible in-game analogs for packets. Weak: Risk of becoming repetitive if challenges are similar. Keep it, but ensure varied challenges and meaningful spell interactions.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":62
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic progression from packets to gameplay. Weak: Risk of becoming repetitive without varied challenges. Keep it, but expand the 'test' phase with more diverse puzzle types.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":63
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells to challenges. Weak: Risk/story link feels abstract. Keep it, but ground 'risk' in concrete network consequences.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":64
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted utility. Weak: Risk of becoming repetitive puzzle grind. Keep it, but needs dynamic challenges and enemy AI to use spells against.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":65
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic core loop. Weak: Abstract crafting may feel disconnected. Keep it, but prototype the crafting-to-spell feel urgently.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":66
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress). Weak: May become repetitive without varied challenges. Keep it, but add more diverse packet types and non-linear challenge structures.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":67
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic core loop. Weak: Risk of repetitive crafting. Keep it, but add procedural challenges to vary the test phase.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":68
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells to challenges. Weak: Risk/story link feels abstract. Keep it, but ground the 'risk' in concrete network consequences.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":69
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress) with thematic network mechanics. Weak: Risk of becoming repetitive without varied challenges. Keep it, but ensure challenges diversify beyond pattern-matching puzzles.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":70
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells to challenges. Weak: Risk/story link feels abstract. Keep it, but ground the 'risk' in concrete network consequences.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":71
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells to challenges. Weak: Risk/story link feels abstract. Keep it, but ground 'risk' in concrete network consequences.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":72
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells to challenges. Weak: Risk/story link feels abstract. Keep it, but ground the story in concrete network events.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":73
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress). Weak: Overly abstract; crafting may feel like a menu. Keep, but prototype the crafting loop first to ensure it feels tangible.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":74
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells. Weak: Risk/story link feels abstract. Keep it, but ground 'risk' in tangible network consequences.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":75
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic progression from packet data to gameplay verbs. Weak: Risk of becoming repetitive without varied challenges. Keep it, but expand the \"test\" phase with more diverse puzzle types.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":76
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Core loop of capture/craft/test is clear and thematic. Weak: Risk of becoming repetitive without varied challenges. Keep it, but ensure challenges evolve beyond simple pattern matching.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":77
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Core loop of capturing network data to craft tools is thematic and clear. Weak: Risk of becoming a repetitive matching puzzle without meaningful player agency. Keep it, but only if challenges evolve beyond simple \"craft spell X to solve obstacle Y.\"",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":78
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic progression from packet data to gameplay verbs. Weak: Risk/story link vague, crafting may become repetitive. Keep it, but refine the risk-reward loop.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":79
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells. Weak: Risk of repetitive crafting loops. Keep it, but add more varied challenge types.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":80
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from data to tools to puzzles. Weak: Risk of crafting becoming repetitive menu navigation. Keep it, but add visual/tactile crafting feedback to strengthen the core loop.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":81
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress) with thematic tech magic. Weak: Risk of repetitive crafting if fragments are generic. Keep it, but ensure fragments and challenges are varied and meaningful.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":82
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic progression from packets to spells. Weak: Risk of repetitive crafting loops. Keep it, but add more varied challenge types beyond 'test'.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":83
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells to challenges. Weak: Risk/story link feels abstract. Keep it, but ground 'risk' in concrete network consequences.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":84
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress). Weak: May become repetitive; crafting could feel abstract. Keep it, but add tactile feedback and varied challenge types.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":85
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic core loop (capture→craft→test). Weak: Risk of being repetitive without varied challenges. Keep it, but expand the \"test\" phase with more dynamic systems.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":86
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells to challenge-solving. Weak: Risk/story link feels abstract. Keep it, but solidify the 'risk' mechanic with concrete in-game consequences.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":87
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells. Weak: Risk/story link feels abstract. Keep core loop, refine narrative integration.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":88
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells; Weak: Risk of crafting becoming repetitive. Keep it, but add more varied challenge types.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":89
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress). Weak: May become repetitive without varied challenges. Keep it, but expand the spell-crafting system for deeper strategy.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":90
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Core packet-to-spell crafting is novel and thematic. Weak: Risk/story link feels abstract, may lack tension. Keep the crafting loop, refine the challenge-reward cycle.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":91
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress) with tangible network components as spells. Weak: Risk of becoming repetitive if challenges lack variety. Keep it, but ensure challenges evolve beyond simple pattern matching.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":92
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress). Weak: Overly abstract; crafting may feel menu-heavy. Keep, but needs tactile feedback and clearer in-world impact.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":93
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic progression from packet data to gameplay verbs. Weak: Risk of becoming repetitive without varied challenge design. Keep it, but expand the \"test\" node with more diverse puzzle types.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":94
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear, thematic progression from packet data to gameplay verbs. Weak: Risk of becoming a repetitive crafting puzzle without dynamic challenges. Keep it, but integrate the 'test' phase more deeply with the 'story,risk' to avoid a mechanical loop.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":95
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells to challenges. Weak: Risk/story link vague, may feel abstract. Keep it, but solidify the 'risk' mechanic with concrete network consequences.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":96
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells to challenges. Weak: Risk/story link feels abstract. Keep it, but ground 'risk' in concrete network consequences.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":97
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression (capture→craft→test→progress). Weak: Overly abstract; crafting may feel menu-driven. Keep, but prototype the \"craft\" step to feel more tactile.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":98
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: clear progression (capture→craft→test→progress). Weak: risk of becoming repetitive pattern-matching. Keep it, but add more dynamic enemy/network reactions to challenges.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":99
+    },{
+      "pattern_signature":"game::derive_from_runtime::runtime::Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "output":"Strong: Clear progression from capture to crafted spells to challenges. Weak: Risk/story link feels abstract. Keep it, but ground 'risk' in tangible network consequences.",
+      "kind":"game",
+      "status":"completed",
+      "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+      "memory_mode":"runtime",
+      "index":100
+    }],
+  "mode":"nanopl",
+  "provider":"deepseek",
+  "task":"Evaluate this gameplay idea for Packet Adventure.\nBe concise and concrete.\nSay what is strong, what is weak, and whether you would keep it.\nReturn one short judgment only.\n\nSource format: nanoPL\n▽ capture→fragments ☵ {TCP flags,DNS queries,HTTP headers}→craft→spells ☲ test(challenge)→{solve,unlock,manipulate} ☱ {story,risk}→progress′ △ output",
+  "count":100
+}

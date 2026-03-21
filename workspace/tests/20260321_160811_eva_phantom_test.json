@@ -1,0 +1,109 @@
+{
+  "total":5,
+  "results":[{
+      "summary":{
+        "phantom_kind":"social",
+        "basis_provider":"deepseek",
+        "pattern_encoded":true,
+        "phantom_count":1,
+        "phantom_has_pattern":true,
+        "batch_enabled":false,
+        "batch_count":1,
+        "spec_target":"social",
+        "pattern_signature":"social::read_then_return::none::clarify user intent",
+        "spec_count":1,
+        "basis_memory_mode":"none",
+        "pattern_mode":"read_then_return",
+        "phantom_memory_mode":"none",
+        "basis_mode":"active",
+        "phantom_task":"clarify user intent",
+        "basis_has_runtime":false,
+        "phantom_first_index":1
+      },
+      "expect_error":false,
+      "ok":true,
+      "name":"single_social_no_memory",
+      "success":true
+    },{
+      "summary":{
+        "phantom_kind":"game",
+        "basis_provider":"deepseek",
+        "pattern_encoded":true,
+        "phantom_count":1,
+        "phantom_has_pattern":true,
+        "batch_enabled":false,
+        "batch_count":1,
+        "spec_target":"game",
+        "pattern_signature":"game::derive_from_runtime::runtime::generate gameplay variant",
+        "spec_count":1,
+        "basis_memory_mode":"runtime",
+        "pattern_mode":"derive_from_runtime",
+        "phantom_memory_mode":"runtime",
+        "basis_mode":"active",
+        "phantom_task":"generate gameplay variant",
+        "basis_has_runtime":true,
+        "phantom_first_index":1
+      },
+      "expect_error":false,
+      "ok":true,
+      "name":"single_game_runtime",
+      "success":true
+    },{
+      "summary":{
+        "phantom_kind":"game",
+        "basis_provider":"deepseek",
+        "pattern_encoded":true,
+        "phantom_count":5,
+        "phantom_has_pattern":true,
+        "batch_enabled":true,
+        "batch_count":5,
+        "spec_target":"game",
+        "pattern_signature":"game::derive_from_runtime::runtime::generate gameplay variants",
+        "spec_count":5,
+        "basis_memory_mode":"runtime",
+        "pattern_mode":"derive_from_runtime",
+        "phantom_memory_mode":"runtime",
+        "basis_mode":"active",
+        "phantom_task":"generate gameplay variants",
+        "basis_has_runtime":true,
+        "phantom_first_index":1
+      },
+      "expect_error":false,
+      "ok":true,
+      "name":"batch_game_five",
+      "success":true
+    },{
+      "summary":{
+        "phantom_kind":"memory",
+        "basis_provider":"deepseek",
+        "pattern_encoded":true,
+        "phantom_count":3,
+        "phantom_has_pattern":true,
+        "batch_enabled":true,
+        "batch_count":3,
+        "spec_target":"memory",
+        "pattern_signature":"memory::derive_from_residue::residue::derive residue readers",
+        "spec_count":3,
+        "basis_memory_mode":"residue",
+        "pattern_mode":"derive_from_residue",
+        "phantom_memory_mode":"residue",
+        "basis_mode":"active",
+        "phantom_task":"derive residue readers",
+        "basis_has_runtime":true,
+        "phantom_first_index":1
+      },
+      "expect_error":false,
+      "ok":true,
+      "name":"batch_memory_residue",
+      "success":true
+    },{
+      "expect_error":true,
+      "success":true,
+      "name":"invalid_zero_count",
+      "ok":false,
+      "error":"./eva/logic.lua:15: Eva.LOGIC: invalid manifestation spec: count must be >= 1"
+    }],
+  "failed":0,
+  "suite":"eva_phantom_test",
+  "passed":5
+}

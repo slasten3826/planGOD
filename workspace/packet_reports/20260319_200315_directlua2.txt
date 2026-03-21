@@ -1,0 +1,258 @@
+PACKET_MACHINE_RENDER_REPORT
+binary: ./packet_cli
+commands: n,v,SPACE,n,w,n,QUIT
+snapshots: 11
+
+=== SNAPSHOT 00 ===
+PACKET DEV CLI  frame=0 sweep=0 sw=live field=2 mode=composite run=step turbulence>=120
+packet=(224,63) transition=(102,141) layer=0 hash=81F4B24B
+ 1 1 1 2 2 2 2 2 2 2 2 2 1 1  | 1
+ 1 2 2 2 2 2 2 2 2 2 2 2 2 2  | 1
+ 1 2 2 2 2 2 2 3 2 2 2 2 2 2  | 1
+ 2 2 2 2 2 3 3 3 3 3 2 2 2 2  | 2
+ 2 2 2 2 3 3 3 3 3 3 3 2 2 2  | 2
+ 2 2 2 3 3 3 3 3 3 3 3 3 2 2  | 2
+ 2 2 2 3 3 3 3 3 3 3 3 3 2 2  | 2
+ 2 2 3 3 3 3 3@3 3 3 3 3 3 2  | 2
+ 2 2 2 3 3 3 3 3 3 3 3 3 2 2  | 2
+ 2 2 2 3 3 3 3 3 3 3 3 3 2 2  | 2
+ 2 2 2 2 3 3 3 3 3 3 3 2 2 2  | 2
+ 2 2 2 2 2 3 3 3 3 3 2 2 2 2  | 2
+ 1 2 2 2 2 2 2 3 2 2 2 2 2 2  | 1
+ 1 2 2 2 2 2 2 2 2 2 2 2 2 2  | 1
+ 1 1 1 2 2 2 2 2 2 2 2 2 1 1  | 1
+view: latent=224 manifest=0 crystal=1 turbulence=0 walls=0
+legend: @ packet, * node, # wall, uppercase=CRYSTAL, lowercase=MANIFEST, !=TURBULENCE, right=density/mf
+controls: WASD move, -= field, m map, r regen, f toggle SW, g step SW, [ ] speed
+dev: space auto-run, n single tick, v cycle view, q/x quit
+
+=== SNAPSHOT 01 ===
+PACKET DEV CLI  frame=1 sweep=1 sw=live field=2 mode=composite run=step turbulence>=120
+packet=(224,63) transition=(102,141) layer=0 hash=81F4B24B
+ 1 1 1 2 2 2 2 2 2 2 2 2 1 1  | 1
+ 1 2 2 2 2 2 2 2 2 2 2 2 2 2  | 1
+ 1 2 2 2 2 2 2 3 2 2 2 2 2 2  | 1
+ 2 2 2 2 2 3 3 3 3 3 2 2 2 2  | 2
+ 2 2 2 2 3 3 3 3 3 3 3 2 2 2  | 2
+ 2 2 2 3 3 3 3c3 3 3 3 3 2 2  | 2
+ 2 2 2 3 3 3c3c3c3 3 3 3 2 2  | 2
+ 2 2 3 3 3c3c3@3c3c3 3 3 3 2  | 2
+ 2 2 2 3 3 3c3c3c3 3 3 3 2 2  | 2
+ 2 2 2 3 3 3 3c3 3 3 3 3 2 2  | 2
+ 2 2 2 2 3 3 3 3 3 3 3 2 2 2  | 2
+ 2 2 2 2 2 3 3 3 3 3 2 2 2 2  | 2
+ 1 2 2 2 2 2 2 3 2 2 2 2 2 2  | 1
+ 1 2 2 2 2 2 2 2 2 2 2 2 2 2  | 1
+ 1 1 1 2 2 2 2 2 2 2 2 2 1 1  | 1
+view: latent=212 manifest=12 crystal=1 turbulence=0 walls=0
+legend: @ packet, * node, # wall, uppercase=CRYSTAL, lowercase=MANIFEST, !=TURBULENCE, right=density/mf
+controls: WASD move, -= field, m map, r regen, f toggle SW, g step SW, [ ] speed
+dev: space auto-run, n single tick, v cycle view, q/x quit
+
+=== SNAPSHOT 02 ===
+PACKET DEV CLI  frame=1 sweep=1 sw=live field=2 mode=composite run=step turbulence>=120
+packet=(224,63) transition=(102,141) layer=0 hash=81F4B24B
+ 1 1 1 2 2 2 2 2 2 2 2 2 1 1  | 1
+ 1 2 2 2 2 2 2 2 2 2 2 2 2 2  | 1
+ 1 2 2 2 2 2 2 3 2 2 2 2 2 2  | 1
+ 2 2 2 2 2 3 3 3 3 3 2 2 2 2  | 2
+ 2 2 2 2 3 3 3 3 3 3 3 2 2 2  | 2
+ 2 2 2 3 3 3 3c3 3 3 3 3 2 2  | 2
+ 2 2 2 3 3 3c3c3c3 3 3 3 2 2  | 2
+ 2 2 3 3 3c3c3@3c3c3 3 3 3 2  | 2
+ 2 2 2 3 3 3c3c3c3 3 3 3 2 2  | 2
+ 2 2 2 3 3 3 3c3 3 3 3 3 2 2  | 2
+ 2 2 2 2 3 3 3 3 3 3 3 2 2 2  | 2
+ 2 2 2 2 2 3 3 3 3 3 2 2 2 2  | 2
+ 1 2 2 2 2 2 2 3 2 2 2 2 2 2  | 1
+ 1 2 2 2 2 2 2 2 2 2 2 2 2 2  | 1
+ 1 1 1 2 2 2 2 2 2 2 2 2 1 1  | 1
+view: latent=212 manifest=12 crystal=1 turbulence=0 walls=0
+legend: @ packet, * node, # wall, uppercase=CRYSTAL, lowercase=MANIFEST, !=TURBULENCE, right=density/mf
+controls: WASD move, -= field, m map, r regen, f toggle SW, g step SW, [ ] speed
+dev: space auto-run, n single tick, v cycle view, q/x quit
+
+=== SNAPSHOT 03 ===
+PACKET DEV CLI  frame=1 sweep=1 sw=live field=2 mode=glyph run=step turbulence>=120
+packet=(224,63) transition=(102,141) layer=0 hash=81F4B24B
+                              |  
+                              |  
+                              |  
+                              |  
+                              |  
+              c               |  
+            c c c             |  
+          c c @Cc c           |  
+            c c c             |  
+              c               |  
+                              |  
+                              |  
+                              |  
+                              |  
+                              |  
+view: latent=212 manifest=12 crystal=1 turbulence=0 walls=0
+legend: @ packet, * node, # wall, uppercase=CRYSTAL, lowercase=MANIFEST, !=TURBULENCE, right=density/mf
+controls: WASD move, -= field, m map, r regen, f toggle SW, g step SW, [ ] speed
+dev: space auto-run, n single tick, v cycle view, q/x quit
+
+=== SNAPSHOT 04 ===
+PACKET DEV CLI  frame=2 sweep=2 sw=live field=2 mode=glyph run=auto turbulence>=120
+packet=(224,63) transition=(102,141) layer=0 hash=81F4B24B
+                              |  
+                              |  
+                              |  
+                              |  
+                              |  
+              c               |  
+            c c c             |  
+          c c @Cc c           |  
+            c c c             |  
+              c               |  
+                              |  
+                              |  
+                              |  
+                              |  
+                              |  
+view: latent=212 manifest=12 crystal=1 turbulence=0 walls=0
+legend: @ packet, * node, # wall, uppercase=CRYSTAL, lowercase=MANIFEST, !=TURBULENCE, right=density/mf
+controls: WASD move, -= field, m map, r regen, f toggle SW, g step SW, [ ] speed
+dev: space auto-run, n single tick, v cycle view, q/x quit
+
+=== SNAPSHOT 05 ===
+PACKET DEV CLI  frame=3 sweep=3 sw=live field=2 mode=glyph run=auto turbulence>=120
+packet=(224,63) transition=(102,141) layer=0 hash=81F4B24B
+                              |  
+                              |  
+                              |  
+                              |  
+                              |  
+              c               |  
+            c c c             |  
+          c c @Cc c           |  
+            c c c             |  
+              c               |  
+                              |  
+                              |  
+                              |  
+                              |  
+                              |  
+view: latent=212 manifest=12 crystal=1 turbulence=0 walls=0
+legend: @ packet, * node, # wall, uppercase=CRYSTAL, lowercase=MANIFEST, !=TURBULENCE, right=density/mf
+controls: WASD move, -= field, m map, r regen, f toggle SW, g step SW, [ ] speed
+dev: space auto-run, n single tick, v cycle view, q/x quit
+
+=== SNAPSHOT 06 ===
+PACKET DEV CLI  frame=4 sweep=4 sw=live field=2 mode=glyph run=auto turbulence>=120
+packet=(224,63) transition=(102,141) layer=0 hash=81F4B24B
+                              |  
+                              |  
+                              |  
+                              |  
+                              |  
+              c               |  
+            c c c             |  
+          c c @Cc c           |  
+            c c c             |  
+              c               |  
+                              |  
+                              |  
+                              |  
+                              |  
+                              |  
+view: latent=212 manifest=12 crystal=1 turbulence=0 walls=0
+legend: @ packet, * node, # wall, uppercase=CRYSTAL, lowercase=MANIFEST, !=TURBULENCE, right=density/mf
+controls: WASD move, -= field, m map, r regen, f toggle SW, g step SW, [ ] speed
+dev: space auto-run, n single tick, v cycle view, q/x quit
+
+=== SNAPSHOT 07 ===
+PACKET DEV CLI  frame=5 sweep=5 sw=live field=2 mode=glyph run=auto turbulence>=120
+packet=(224,63) transition=(102,141) layer=0 hash=81F4B24B
+                              |  
+                              |  
+                              |  
+                              |  
+                              |  
+              c               |  
+            c c c             |  
+          c c @Cc c           |  
+            c c c             |  
+              c               |  
+                              |  
+                              |  
+                              |  
+                              |  
+                              |  
+view: latent=212 manifest=12 crystal=1 turbulence=0 walls=0
+legend: @ packet, * node, # wall, uppercase=CRYSTAL, lowercase=MANIFEST, !=TURBULENCE, right=density/mf
+controls: WASD move, -= field, m map, r regen, f toggle SW, g step SW, [ ] speed
+dev: space auto-run, n single tick, v cycle view, q/x quit
+
+=== SNAPSHOT 08 ===
+PACKET DEV CLI  frame=6 sweep=6 sw=live field=2 mode=glyph run=auto turbulence>=120
+packet=(224,62) transition=(102,141) layer=0 hash=81F4B24B
+                              |  
+                              |  
+                              |  
+                              |  
+                              |  
+              c               |  
+            c c c             |  
+          c c @Cc c           |  
+          c c FCc c           |  
+            c c c             |  
+              c               |  
+                              |  
+                              |  
+                              |  
+                              |  
+view: latent=207 manifest=16 crystal=2 turbulence=0 walls=0
+legend: @ packet, * node, # wall, uppercase=CRYSTAL, lowercase=MANIFEST, !=TURBULENCE, right=density/mf
+controls: WASD move, -= field, m map, r regen, f toggle SW, g step SW, [ ] speed
+dev: space auto-run, n single tick, v cycle view, q/x quit
+
+=== SNAPSHOT 09 ===
+PACKET DEV CLI  frame=7 sweep=7 sw=live field=2 mode=glyph run=auto turbulence>=120
+packet=(224,62) transition=(102,141) layer=0 hash=81F4B24B
+                              |  
+                              |  
+                              |  
+                              |  
+                              |  
+              c               |  
+            c c c             |  
+          c c @Cc c           |  
+          c c FCc c           |  
+            c c c             |  
+              c               |  
+                              |  
+                              |  
+                              |  
+                              |  
+view: latent=207 manifest=16 crystal=2 turbulence=0 walls=0
+legend: @ packet, * node, # wall, uppercase=CRYSTAL, lowercase=MANIFEST, !=TURBULENCE, right=density/mf
+controls: WASD move, -= field, m map, r regen, f toggle SW, g step SW, [ ] speed
+dev: space auto-run, n single tick, v cycle view, q/x quit
+
+=== SNAPSHOT 10 ===
+PACKET DEV CLI  frame=8 sweep=8 sw=live field=2 mode=glyph run=auto turbulence>=120
+packet=(224,62) transition=(102,141) layer=0 hash=81F4B24B
+                              |  
+                              |  
+                              |  
+                              |  
+                              |  
+              c               |  
+            c c c             |  
+          c c @Cc c           |  
+          c c FCc c           |  
+            c c c             |  
+              c               |  
+                              |  
+                              |  
+                              |  
+                              |  
+view: latent=207 manifest=16 crystal=2 turbulence=0 walls=0
+legend: @ packet, * node, # wall, uppercase=CRYSTAL, lowercase=MANIFEST, !=TURBULENCE, right=density/mf
+controls: WASD move, -= field, m map, r regen, f toggle SW, g step SW, [ ] speed
+dev: space auto-run, n single tick, v cycle view, q/x quit
+

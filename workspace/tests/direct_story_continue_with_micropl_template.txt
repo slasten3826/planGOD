@@ -1,0 +1,19 @@
+microPL note:
+- FLOW = continuation / carrying motion
+- CONNECT = relation / linkage
+- DISSOLVE = decay / blur / loss
+- ENCODE = crystallization into form
+- CHOOSE = selection / commitment
+- OBSERVE = noticing / sensing
+- CYCLE = repetition / recurrence
+- LOGIC = structural rule / coherence
+- RUNTIME = live state / active pressure
+- MANIFEST = what becomes explicit
+
+Continue the same story. Do not start a new one. Keep the same local world, tone, and internal logic.
+
+After the story, output one short line:
+GLYPH: <very short microPL residue, not prose, only compact operator-style encoding>
+
+SEMANTIC ANCHOR:
+{{ANCHOR}}

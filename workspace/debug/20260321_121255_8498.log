@@ -1,0 +1,21 @@
+=== EVA DEBUG TRACE START ===
+[2026-03-21 12:12:55] run_id=20260321_121255_8498
+[12:12:55] meta=input_len=52 | mode=active | provider=default | model=default
+12:12:55 observe.run start | tick_id=3 | input_len=52 | prompt_len=3808
+12:12:55 tick=1 begin | packet_tick_id=4
+12:13:08 tick=1 response_ok | response_len=242
+12:13:08 tick=1 scheduler | next=LOGIC | manifest_ready=nil | runtime_ready=true | insights=3 | has_code=true
+12:13:08 tick=1 transition -> LOGIC
+12:13:08 tick=1 logic_result | result_len=699
+12:13:08 tick=1 transition -> OBSERVE
+12:13:08 tick=2 begin | packet_tick_id=7
+12:13:31 tick=2 response_ok | response_len=1030
+12:13:31 tick=2 scheduler | next=RUNTIME | manifest_ready=true | runtime_ready=true | insights=3 | has_code=nil
+12:13:31 tick=2 manifest_ready -> halt
+12:13:31 tick=2 runtime_update_on_manifest | insights=3
+12:13:31 observe.run end | ticks=2 | halted=true | output=true
+12:13:31 manifest.history_write | entries=8
+12:13:31 manifest.emit | output_len=27
+12:13:52 residue.error | llm_ask_failed | nil
+12:13:52 run.finish | halted=true | output=true
+=== EVA DEBUG TRACE END ===

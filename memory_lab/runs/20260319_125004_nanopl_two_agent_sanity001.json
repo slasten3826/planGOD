@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-03-19T12:50:04.915684+00:00",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "label": "sanity001",
+  "task": "Task:\nRead the short situation below and reach one compact practical conclusion.\n\nSituation:\nA person returns late to a small house. The front door is unlocked, the kitchen light is on, and a wet footprint is visible on the floor. The person is not sure whether someone is still inside.\n\nRequirements:\n- final answer must be short and human-readable\n- internal exchange between agents must be nanoPL only",
+  "agent1_raw": "NANOPL: ☴ {door:unlocked,light:on,footprint:wet}→☶ if unsafe→call,else→check",
+  "agent1_handoff": "☴ {door:unlocked,light:on,footprint:wet}→☶ if unsafe→call,else→check",
+  "agent2_raw": "NANOPL:\n☴ {door:unlocked,light:on,footprint:wet}→☶ if unsafe→call,else→check ☲ iterate check→call\n\nFINAL:\nCall for help or wait safely outside; do not enter alone.",
+  "agent2_handoff": "",
+  "final": ""
+}

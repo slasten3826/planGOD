@@ -1,0 +1,19 @@
+Task:
+You must jointly triage a strange system failure.
+
+Situation:
+- Overall latency increased 4x.
+- Error rate barely increased.
+- One shard is lagging behind others.
+- Logs suggest storage pressure.
+- Metrics suggest network instability.
+- A rollback helped only partially.
+
+Goal:
+Reach one compact practical conclusion:
+- most likely current cause
+- and safest next action
+
+Requirements:
+- internal exchange between agents must be nanoPL only
+- final answer must be short and human-readable

@@ -1,0 +1,16 @@
+Operators:
+▽ FLOW ☰ CONNECT ☷ DISSOLVE ☵ ENCODE
+☳ CHOOSE ☴ OBSERVE ☶ LOGIC ☲ CYCLE
+☱ RUNTIME △ MANIFEST
+
+Core:
+▽ x→f→x′
+☰ a+b→rel
+☷ rel→parts
+☵ x*→pattern
+☳ {paths}→1
+☴ observe(x)
+☶ rules(x)
+☲ iterate fⁿ(x)
+☱ ctx→state′
+△ output

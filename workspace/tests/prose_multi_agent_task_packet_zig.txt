@@ -1,0 +1,91 @@
+You are part of a multi-agent analysis swarm.
+
+Task:
+Reconstruct what the Zig Packet prototype is as a machine and explain it at the
+end in concise human language.
+
+You are not asked for a file-by-file summary.
+You are asked to infer the computational ontology of the system.
+
+At the end, the swarm should answer:
+
+1. What kind of machine Packet is.
+2. What each layer does.
+3. What the full cycle of the system is.
+4. Why this is more than "just an engine".
+5. What the most important architectural risks or unstable assumptions are.
+
+Important:
+
+- internal coordination should stay concise and cumulative
+- use ordinary language, not nanoPL
+- each handoff should summarize the current understanding and the next key point
+- final answer should be short, concrete, and architectural
+- do not just restate filenames
+- recover the cycle and system meaning
+
+Source material summary:
+
+Layer 0 — Substrate
+- static memory
+- zero allocations
+- chaos memory + calm tape + registers + ring buffers + clock + power budget
+- hardware abstraction for linux / esp32 / psp
+
+Layer 1 — ChaosVM
+- chaotic VM over static substrate memory
+- loads a program into chaos cells
+- fills the rest of memory recursively using crazy()
+- has registers A/C/D
+- supports input, manifest/output, rotation, jump, crazy op
+- mutates memory during execution
+- provides a fingerprint of current live chaos state
+
+Layer 2 — Boundary
+- watches chaos and calm simultaneously
+- ObserveA reads chaos fingerprint, register A, stagnation, halted state
+- ObserveB reads calm layer count, program size, PU fraction
+- Choose decides between continuing chaos, encoding, or manifesting
+- Encode gradually crystallizes part of chaos into trigram code
+- compression is irreversible and lossy
+- max 35 percent per pass
+- encoded crystal is appended as a new calm layer
+- crystallized chaos region is corrupted afterward
+
+Layer 3 — CalmVM
+- deterministic trigram VM
+- 3-bit opcodes
+- trigrams map to operators:
+  - ☰ CONNECT
+  - ☷ DISSOLVE
+  - ☲ CYCLE
+  - ☱ RUNTIME
+  - ☴ OBSERVE
+  - ☶ LOGIC
+  - ☵ ENCODE
+  - ☳ CHOOSE
+- program is built by appending crystal layers
+- precomputes brackets for cycles
+- executes on calm tape
+
+Layer 4 — Tension
+- measures chaos pressure, calm rigidity, boundary cost, PU stress
+- computes imbalance and tension score
+- chooses action:
+  - hold
+  - reinforce_calm
+  - release_to_chaos
+  - manifest_now
+- release_to_chaos does not resurrect dead crystal
+- calm residue perturbs chaos
+- closes the feedback loop calm → chaos
+
+Core asymmetry:
+
+- chaos becomes crystal through boundary encoding
+- crystal does not become chaos again directly
+- only residue perturbs chaos through tension
+
+Core question:
+
+What is this machine really doing?

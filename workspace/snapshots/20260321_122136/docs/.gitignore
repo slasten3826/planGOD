@@ -1,0 +1,20 @@
+# planGOD .gitignore
+
+# Память и история — личные данные, не для репозитория
+runtime/storage/momentum.json
+core/history.json
+
+# Рабочая зона агента
+workspace/*
+!workspace/.gitkeep
+
+# Временные файлы
+*.tmp
+/tmp/
+
+# Lua compiled
+*.luac
+
+# OS
+.DS_Store
+Thumbs.db

@@ -27,6 +27,7 @@ function packet.new(input)
         -- CONNECT: загруженные линзы, контекст
         lenses  = {},    -- активные оптики
         context = nil,   -- собранный контекст из линз
+        substrate = nil, -- Layer 0 provider fingerprint
 
         -- ENCODE: финальный системный промпт для LLM
         prompt = nil,

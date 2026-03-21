@@ -1,0 +1,23 @@
+latest=workspace/debug/20260321_122321_9569.log
+12:23:21 observe.run start | tick_id=3 | input_len=52 | prompt_len=3886
+12:23:21 substrate.active | layer=0 | provider=deepseek | model=deepseek-chat | switch=0
+12:23:21 tick=1 begin | packet_tick_id=4
+12:23:21 substrate.ask.begin | provider=deepseek | model=deepseek-chat | timeout=nil
+12:23:26 substrate.ask.ok | provider=deepseek | model=deepseek-chat | response_len=466
+12:23:26 tick=1 response_ok | response_len=466
+12:23:26 tick=1 scheduler | next=LOGIC | manifest_ready=false | runtime_ready=true | insights=3 | has_code=true
+12:23:26 tick=1 transition -> LOGIC
+12:23:26 tick=1 logic_result | result_len=1065
+12:23:26 tick=1 transition -> OBSERVE
+12:23:26 tick=2 begin | packet_tick_id=7
+12:23:26 substrate.ask.begin | provider=deepseek | model=deepseek-chat | timeout=nil
+12:23:38 substrate.ask.ok | provider=deepseek | model=deepseek-chat | response_len=1805
+12:23:38 tick=2 response_ok | response_len=1805
+12:23:38 tick=2 scheduler | next=RUNTIME | manifest_ready=true | runtime_ready=true | insights=3 | has_code=nil
+12:23:38 tick=2 manifest_ready -> halt
+12:23:38 tick=2 runtime_update_on_manifest | insights=3
+12:23:38 observe.run end | ticks=2 | halted=true | output=true
+12:23:38 manifest.history_write | entries=10
+12:23:38 manifest.emit | output_len=1795
+12:23:43 residue.capture | residue_len=444
+12:23:43 run.finish | halted=true | output=true

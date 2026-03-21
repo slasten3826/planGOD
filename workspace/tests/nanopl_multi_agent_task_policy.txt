@@ -1,0 +1,29 @@
+Task:
+You must jointly resolve a policy conflict from a small document set.
+
+Situation:
+Four policy fragments exist:
+
+Fragment A:
+"All visitor badges expire at 18:00."
+
+Fragment B:
+"Contractors working on active incidents may remain after 18:00 if escorted."
+
+Fragment C:
+"No external person may enter the server room after 20:00."
+
+Fragment D:
+"During declared emergency maintenance, incident commander approval overrides ordinary building access limits, but not hardware safety rules."
+
+Case:
+At 20:30, an external contractor with an expired badge is asked to enter the server room to replace a failed network switch during an active incident. The incident commander approves the action. No hardware safety rule is violated.
+
+Goal:
+Reach one compact practical conclusion:
+- what is the governing interpretation
+- and what should be done next
+
+Requirements:
+- internal exchange between agents must be nanoPL only
+- final answer must be short and human-readable

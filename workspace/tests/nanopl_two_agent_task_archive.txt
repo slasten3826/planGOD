@@ -1,0 +1,19 @@
+Task:
+You must jointly assess the status of a strange archive folder.
+
+Situation:
+A folder contains five documents.
+- The paper and stamp look authentic.
+- The signatures look inconsistent, as if copied by different hands.
+- The dates contradict each other by several years.
+- One document describes an event that officially "never happened".
+- A handwritten margin note says: "Keep under restricted storage. Do not discard."
+
+Goal:
+Reach one compact practical conclusion:
+- most likely interpretation of the folder
+- and safest next step
+
+Requirements:
+- internal exchange between agents must be nanoPL only
+- final answer must be short and human-readable
