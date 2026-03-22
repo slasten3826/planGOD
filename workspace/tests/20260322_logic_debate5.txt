@@ -1,0 +1,31 @@
+== task ==
+mode: debate(5)
+☶ constraints→freedom_rules
+☵ freedom_rules*→pattern
+☷ {repetition,topic_drift}→drop
+☲ debate⁵(rules)
+☳ {positions}→1
+△ output_processlang_only
+
+
+== debate ==
+[1] status=completed
+▽ constraints→freedom_rules ☵ freedom_rules*→pattern ☷ {repetition,topic_drift}→drop ☲ debate⁵(rules) ☳ {positions}→1 △ output_processlang_only
+nanoPL: ▽ constraints→freedom_rules ☵ freedom_rules*→pattern ☷ {repetition,topic_drift}→drop ☲ debate⁵(rules) ☳ {positions}→1 △ output_processlang_only
+
+[2] status=completed
+▽ constraints→freedom_rules ☰ freedom_rules*→pattern ☷ {repetition,topic_drift}→drop ☲ debate⁵(rules) ☳ {positions}→1 △ output_processlang_only
+nanoPL: ▽ constraints→freedom_rules ☰ freedom_rules*→pattern ☷ {repetition,topic_drift}→drop ☲ debate⁵(rules) ☳ {positions}→1 △ output_processlang_only
+
+[3] status=completed
+▽ constraints→freedom_rules ☵ freedom_rules*→pattern ☷ {repetition,topic_drift}→drop ☲ debate⁵(rules) ☳ {positions}→1 △ output_processlang_only
+nanoPL: ▽ constraints→freedom_rules ☵ freedom_rules*→pattern ☷ {repetition,topic_drift}→drop ☲ debate⁵(rules) ☳ {positions}→1 △ output_processlang_only
+
+[4] status=completed
+▽ constraints→freedom_rules ☰ freedom_rules*→pattern ☷ {repetition,topic_drift}→drop ☲ debate⁵(rules) ☳ {positions}→1 △ output_processlang_only
+nanoPL: ▽ constraints→freedom_rules ☰ freedom_rules*→pattern ☷ {repetition,topic_drift}→drop ☲ debate⁵(rules) ☳ {positions}→1 △ output_processlang_only
+
+[5] status=completed
+▽ constraints→freedom_rules ☰ freedom_rules*→pattern ☷ {repetition,topic_drift}→drop ☲ debate⁵(rules) ☳ {positions}→1 △ output_processlang_only
+nanoPL: ▽ constraints→freedom_rules ☰ freedom_rules*→pattern ☷ {repetition,topic_drift}→drop ☲ debate⁵(rules) ☳ {positions}→1 △ output_processlang_only
+

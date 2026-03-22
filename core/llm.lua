@@ -9,6 +9,7 @@ local DEFAULT_PROVIDER = "deepseek"
 local PROVIDERS = {
     deepseek = "llm.deepseek",
     glm = "llm.glm",
+    ollama = "llm.ollama",
 }
 
 local function normalize_provider_name(name)
@@ -54,4 +55,3 @@ function llm.ask(messages, options)
 end
 
 return llm
-

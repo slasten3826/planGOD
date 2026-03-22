@@ -1,0 +1,23 @@
+▽ x→f→x′
+☰ a+b→rel
+☷ rel→parts
+☵ x*→pattern
+☳ {paths}→1
+☴ observe(x)
+☶ rules(x)
+☲ iterate fⁿ(x)
+☱ ctx→state′
+△ output
+
+
+☴ observe(stream_a) ☴ observe(stream_b) ☰ stream_a+stream_b→rel ☵ rel*→pattern ☶ rules(preserve_nature) ☷ rel→parts ☱ ctx→state′ ▽ stream_a→merge→stream_unified ▽ stream_b→merge→stream_unified ☲ iterate fⁿ(merge) △ output
+
+  ☴ observe(seed)
+  ☵ seed*→pattern
+  ☶ rules(observe_state)
+  ☲ iterate deepenⁿ(state)
+  ☷ repetition→drop
+  ☷ topic_drift→drop
+  ☱ state→state′
+  △ output_processlang_only
+

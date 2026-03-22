@@ -1,0 +1,25 @@
+processlang:
+▽ x→f→x′
+☰ a+b→rel
+☷ rel→parts
+☵ x*→pattern
+☳ {paths}→1
+☴ observe(x)
+☶ rules(x)
+☲ iterate fⁿ(x)
+☱ ctx→state′
+△ output
+
+
+seed:
+☴ observe(отстранённость) ☵ отстранённость*→pattern ☶ rules(противоположность) ▽ отстранённость→трансформация→близость ☷ близость→parts ☱ ctx→state′ △ output
+
+
+  ☴ observe(seed)
+  ☵ seed*→pattern
+  ☶ rules(observe_state)
+  ☲ iterate deepenⁿ(state)
+  ☷ repetition→drop
+  ☷ topic_drift→drop
+  ☱ state→state′
+  △ output_processlang_only

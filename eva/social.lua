@@ -45,22 +45,42 @@ end
 local function build_ingress_messages(prompt)
     local lines = {
         "You are Eva.Social ingress.",
-        "Accept a human user request and prepare a machine-facing handoff for Eva.Core.",
+        "Accept a human user request and encode it into ProcessLang for Eva.Core.",
         "Return JSON only.",
+        "",
+        "nanoPL reference:",
+        "▽ x→f→x′",
+        "☰ a+b→rel",
+        "☷ rel→parts",
+        "☵ x*→pattern",
+        "☳ {paths}→1",
+        "☴ observe(x)",
+        "☶ rules(x)",
+        "☲ iterate fⁿ(x)",
+        "☱ ctx→state′",
+        "△ output",
         "",
         "Schema:",
         "{",
         '  "source": "user",',
         '  "input_encode": "human",',
-        '  "core_encode": "nanopl_or_machine",',
+        '  "core_encode": "processlang",',
         '  "raw_input": "original user prompt",',
-        '  "core_input": "short machine-facing handoff for Eva.Core"',
+        '  "core_input": "one compact ProcessLang line for Eva.Core",',
+        '  "anchors": ["short human anchors", "kept only as labels"]',
         "}",
         "",
         "Rules:",
         "- preserve the real user intent",
-        "- keep core_input concise",
+        "- core_input must be ProcessLang-first, not prose summary",
+        "- use glyph operators and compact operator flow",
+        "- keep core_input to exactly one line",
+        "- anchors may contain short human labels, but core_input must remain machine-facing",
+        "- do not output English or Russian prose in core_input",
         "- do not explain outside JSON",
+        "",
+        "Good example:",
+        '{"source":"user","input_encode":"human","core_encode":"processlang","raw_input":"Analyze this mechanic","core_input":"☴ observe(mechanic) ☵ mechanic*→pattern ☶ rules(balance) ☷ rel→parts ☱ ctx→state′ ☲ iterate fⁿ(loop) △ output","anchors":["mechanic","balance","loop"]}',
         "",
         "User prompt:",
         prompt,
@@ -148,6 +168,10 @@ function social.ingress(prompt, opts)
     local obj, json_err = extract_json(text)
     if not obj then
         return nil, json_err
+    end
+    obj.core_encode = "processlang"
+    if type(obj.anchors) ~= "table" then
+        obj.anchors = {}
     end
     return obj
 end

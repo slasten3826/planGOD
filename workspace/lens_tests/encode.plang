@@ -1,0 +1,23 @@
+▽ x→f→x′
+☰ a+b→rel
+☷ rel→parts
+☵ x*→pattern
+☳ {paths}→1
+☴ observe(x)
+☶ rules(x)
+☲ iterate fⁿ(x)
+☱ ctx→state′
+△ output
+
+
+☴ observe(preservation_attempt) ☵ preservation_attempt*→paradox_pattern ☶ rules(information_entropy) ▽ preservation_attempt→f→information_loss ☷ paradox_pattern→parts ☱ context→state′ ☲ iterate fⁿ(attempt_loop) △ output
+
+  ☴ observe(seed)
+  ☵ seed*→pattern
+  ☶ rules(observe_state)
+  ☲ iterate deepenⁿ(state)
+  ☷ repetition→drop
+  ☷ topic_drift→drop
+  ☱ state→state′
+  △ output_processlang_only
+

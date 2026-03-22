@@ -1,0 +1,1 @@
+▽ seed→state ☰ observe→pattern ☷ {repetition,topic_drift}→drop ☲ deepenⁿ(state) ☱ state→state′ △ output_processlang_only

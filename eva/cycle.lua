@@ -2,6 +2,7 @@
 -- Eva.CYCLE frames multiplicity as one batch act.
 
 local state = require("eva.state")
+local handoff = require("eva.handoff")
 
 local cycle = {}
 
@@ -47,50 +48,6 @@ local function clone_table(tbl)
         out[k] = v
     end
     return out
-end
-
-local function build_chain_task(base_task, step_index, prev_result)
-    local output = prev_result and prev_result.output or ""
-    local residue = prev_result and prev_result.residue or ""
-
-    return table.concat({
-        base_task,
-        "",
-        string.format("Phantom %d already proposed this idea:", step_index),
-        output,
-        "",
-        string.format("Phantom %d nanoPL residue:", step_index),
-        residue,
-        "",
-        "Improve it, extend it, or make it more playable for Packet Adventure.",
-    }, "\n")
-end
-
-local function build_debate_task(base_task, round_index, self_index, round_results)
-    local lines = {
-        base_task,
-        "",
-        string.format("Debate round: %d", round_index),
-        string.format("You are phantom %d in a debate.", self_index),
-        "Read the other positions, keep what is strong, reject what is weak, and return your updated position.",
-        "",
-        "Other phantom positions:",
-    }
-
-    for i, result in ipairs(round_results or {}) do
-        if i ~= self_index then
-            lines[#lines + 1] = ""
-            lines[#lines + 1] = string.format("Phantom %d output:", i)
-            lines[#lines + 1] = tostring(result.output or "")
-            lines[#lines + 1] = string.format("Phantom %d nanoPL residue:", i)
-            lines[#lines + 1] = tostring(result.residue or "")
-        end
-    end
-
-    lines[#lines + 1] = ""
-    lines[#lines + 1] = "Return one revised position only."
-
-    return table.concat(lines, "\n")
 end
 
 function cycle.execute(spec, basis, batch, manifest, exec_opts)
@@ -147,7 +104,7 @@ function cycle.execute(spec, basis, batch, manifest, exec_opts)
             local phantom = manifest.create(step_spec, basis, { count = 1, mode = "chain" })
             local result = manifest.execute(phantom, exec_opts)
             results[#results + 1] = result
-            current_task = build_chain_task(spec.task, i, result)
+            current_task = handoff.build_chain_task(spec.task, i, result, spec.format)
         end
 
         return results
@@ -184,7 +141,7 @@ function cycle.execute(spec, basis, batch, manifest, exec_opts)
             for i = 1, batch.count do
                 local step_spec = clone_table(spec)
                 step_spec.count = 1
-                step_spec.task = build_debate_task(spec.task, round, i, round_results)
+                step_spec.task = handoff.build_debate_task(spec.task, round, i, round_results)
                 local phantom = manifest.create(step_spec, basis, { count = 1, mode = "debate" })
                 next_round[i] = manifest.execute(phantom, exec_opts)
             end

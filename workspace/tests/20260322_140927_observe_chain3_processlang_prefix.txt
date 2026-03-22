@@ -1,0 +1,43 @@
+== task ==
+processlang:
+▽ x→f→x′
+☰ a+b→rel
+☷ rel→parts
+☵ x*→pattern
+☳ {paths}→1
+☴ observe(x)
+☶ rules(x)
+☲ iterate fⁿ(x)
+☱ ctx→state′
+△ output
+
+☴ observe(отстранённость) ☵ отстранённость*→pattern ☶ rules(противоположность) ▽ отстранённость→трансформация→близость ☷ близость→parts ☱ ctx→state′ △ output
+
+  ☴ observe(seed)
+  ☵ seed*→pattern
+  ☶ rules(observe_state)
+  ☲ iterate deepenⁿ(state)
+  ☷ repetition→drop
+  ☷ topic_drift→drop
+  ☱ state→state′
+  △ output_processlang_only
+
+== chain ==
+[1] status=error
+error=API ERROR (GLM HTTP 0): 
+[curl stderr]
+curl: (6) Could not resolve host: api.us-west-2.modal.direct
+
+
+[2] status=error
+error=API ERROR (GLM HTTP 0): 
+[curl stderr]
+curl: (6) Could not resolve host: api.us-west-2.modal.direct
+
+
+[3] status=error
+error=API ERROR (GLM HTTP 0): 
+[curl stderr]
+curl: (6) Could not resolve host: api.us-west-2.modal.direct
+
+

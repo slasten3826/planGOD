@@ -74,6 +74,7 @@ local function build_llm_messages(phantom)
         "Index: " .. tostring(phantom.index or 1),
         "Memory mode: " .. tostring(phantom.memory_mode or "none"),
         "Pattern signature: " .. tostring(phantom.pattern and phantom.pattern._signature or "none"),
+        "Format: " .. tostring(phantom.format or "conversational"),
         "Basis mode: " .. tostring(basis.mode or "active"),
         "Basis edge count: " .. tostring(basis.edge_count or 0),
         "Substrate provider: " .. tostring(substrate.provider or "unknown"),
@@ -85,6 +86,13 @@ local function build_llm_messages(phantom)
         "- stay inside the assigned task",
         "- do not roleplay beyond the phantom function",
     }
+
+    if phantom.format == "processlang" then
+        lines[#lines + 1] = "- output only ProcessLang"
+        lines[#lines + 1] = "- no prose"
+        lines[#lines + 1] = "- no markdown"
+        lines[#lines + 1] = "- preserve operator structure"
+    end
 
     return {
         {

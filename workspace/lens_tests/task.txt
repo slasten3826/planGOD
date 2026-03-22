@@ -1,0 +1,8 @@
+  ☴ observe(seed)
+  ☵ seed*→pattern
+  ☶ rules(observe_state)
+  ☲ iterate deepenⁿ(state)
+  ☷ repetition→drop
+  ☷ topic_drift→drop
+  ☱ state→state′
+  △ output_processlang_only
