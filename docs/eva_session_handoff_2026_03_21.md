@@ -1,5 +1,9 @@
 # Eva Session Handoff — 2026-03-21
 
+> Historical note:
+> this handoff still uses the older term `debate`.
+> Current canonical term is `grok`.
+
 ## Контекст
 
 Сегодняшняя сессия была не про “подкрутить модуль”, а про очень большой архитектурный сдвиг:

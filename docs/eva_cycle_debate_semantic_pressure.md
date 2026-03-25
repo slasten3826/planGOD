@@ -1,5 +1,9 @@
 # Eva.CYCLE Debate as Semantic Pressure
 
+> Historical note:
+> this document uses the older term `debate`.
+> Current canonical term for this compression/concentration layer is `grok`.
+
 ## What Was Tested
 
 We tested `Eva.CYCLE` in `debate` mode as a real multi-phantom pressure mechanism.

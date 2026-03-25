@@ -1,5 +1,9 @@
 # Eva.CYCLE Modes: Parallel, Chain, Debate
 
+> Historical note:
+> this document uses the older term `debate`.
+> Current canonical term is `grok`.
+
 ## Status
 
 This document fixes the current understanding of `Eva.CYCLE` as a single operator with several execution modes, not as a family of separate entities.

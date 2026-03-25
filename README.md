@@ -28,7 +28,7 @@ If you are a machine:
 - `Eva`
   - cognitive machine under construction
   - phantom generation
-  - `parallel / chain / debate`
+  - `parallel / chain / grok`
 - `Slastris`
   - long-term direction
   - one-prompt-to-one-game machine
@@ -41,7 +41,7 @@ The current direction is:
 
 - build a machine that can move from prompt -> cognition -> gameplay form;
 - let `Eva` think through operator structures and phantom cycles;
-- use `debate` not only as discussion, but as semantic pressure / concentration of meaning;
+- use `grok` as semantic pressure / concentration of meaning after purification;
 - eventually move internal Eva cognition toward `PL-first` / `nanoPL-first` payloads;
 - keep human-facing layers separate from internal machine-thinking layers.
 
@@ -51,7 +51,7 @@ One of the strongest findings in this repo so far:
 
 - `parallel` gives width
 - `chain` grows one line
-- `debate` compresses and crystallizes meaning
+- `grok` compresses and crystallizes meaning
 
 This means multi-agent pressure can act like a semantic forge, not just brainstorming.
 
@@ -100,7 +100,7 @@ At the time of this snapshot:
 
 - `Eva` lower-layer modules exist;
 - phantom creation and execution exist;
-- `parallel`, `chain`, and `debate` exist;
+- `parallel`, `chain`, and `grok` exist;
 - `Eva.Social` exists as boundary logic;
 - CLI and telemetry exist in first form;
 - internal Eva payload is still not fully `nanoPL-first`.

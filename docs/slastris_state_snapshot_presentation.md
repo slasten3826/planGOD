@@ -1,5 +1,9 @@
 # Slastris State Snapshot
 
+> Historical note:
+> parts of this snapshot still use the older term `debate`.
+> Current canonical term is `grok`.
+
 ## What Is Slastris
 
 `Slastris` is not an AGI project.
