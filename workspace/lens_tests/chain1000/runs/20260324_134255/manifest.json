@@ -1,0 +1,19 @@
+{
+  "finished_at":"20260324_173333",
+  "include_done":false,
+  "operators":[{
+      "command":"lua /home/slasten/planGOD/tools/prose_grok_chain.lua --provider 'deepseek' --question 'Как полное отсутствие цели рождает чистое движение?' --count 3000 --out '/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_134255/FLOW/flow_chain3000.json'",
+      "exit_code":true,
+      "launched":true,
+      "out":"/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_134255/FLOW/flow_chain3000.json",
+      "id":"FLOW",
+      "status":"pending",
+      "question":"Как полное отсутствие цели рождает чистое движение?"
+    }],
+  "provider":"deepseek",
+  "count":3000,
+  "only":"FLOW",
+  "dry_run":false,
+  "started_at":"20260324_134255",
+  "out_dir":"/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_134255"
+}

@@ -1,0 +1,66 @@
+{
+  "dry_run":true,
+  "provider":"deepseek",
+  "started_at":"20260324_070628",
+  "out_dir":"/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_070628",
+  "count":1000,
+  "finished_at":"20260324_070628",
+  "operators":[{
+      "command":"lua /home/slasten/planGOD/tools/prose_grok_chain.lua --provider 'deepseek' --question 'Как отказ от любого выбора делает выбор неизбежным и окончательным?' --count 1000 --out '/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_070628/CHOOSE/choose_chain1000.json'",
+      "out":"/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_070628/CHOOSE/choose_chain1000.json",
+      "question":"Как отказ от любого выбора делает выбор неизбежным и окончательным?",
+      "status":"pending",
+      "id":"CHOOSE",
+      "launched":false
+    },{
+      "command":"lua /home/slasten/planGOD/tools/prose_grok_chain.lua --provider 'deepseek' --question 'Как два полностью независимых потока становятся одним без потери своей природы?' --count 1000 --out '/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_070628/CONNECT/connect_chain1000.json'",
+      "out":"/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_070628/CONNECT/connect_chain1000.json",
+      "question":"Как два полностью независимых потока становятся одним без потери своей природы?",
+      "status":"pending",
+      "id":"CONNECT",
+      "launched":false
+    },{
+      "command":"lua /home/slasten/planGOD/tools/prose_grok_chain.lua --provider 'deepseek' --question 'Как полное принятие конечности рождает бесконечный цикл?' --count 1000 --out '/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_070628/CYCLE/cycle_chain1000.json'",
+      "out":"/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_070628/CYCLE/cycle_chain1000.json",
+      "question":"Как полное принятие конечности рождает бесконечный цикл?",
+      "status":"pending",
+      "id":"CYCLE",
+      "launched":false
+    },{
+      "command":"lua /home/slasten/planGOD/tools/prose_grok_chain.lua --provider 'deepseek' --question 'Как полная уверенность в неизменности понятия рождает его мгновенное растворение в процессе?' --count 1000 --out '/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_070628/DISSOLVE/dissolve_chain1000.json'",
+      "out":"/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_070628/DISSOLVE/dissolve_chain1000.json",
+      "question":"Как полная уверенность в неизменности понятия рождает его мгновенное растворение в процессе?",
+      "status":"pending",
+      "id":"DISSOLVE",
+      "launched":false
+    },{
+      "command":"lua /home/slasten/planGOD/tools/prose_grok_chain.lua --provider 'deepseek' --question 'Как максимальная попытка сохранить всё без потерь рождает максимальную потерю информации?' --count 1000 --out '/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_070628/ENCODE/encode_chain1000.json'",
+      "out":"/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_070628/ENCODE/encode_chain1000.json",
+      "question":"Как максимальная попытка сохранить всё без потерь рождает максимальную потерю информации?",
+      "status":"pending",
+      "id":"ENCODE",
+      "launched":false
+    },{
+      "command":"lua /home/slasten/planGOD/tools/prose_grok_chain.lua --provider 'deepseek' --question 'Как полное отсутствие цели рождает чистое движение?' --count 1000 --out '/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_070628/FLOW/flow_chain1000.json'",
+      "out":"/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_070628/FLOW/flow_chain1000.json",
+      "question":"Как полное отсутствие цели рождает чистое движение?",
+      "status":"pending",
+      "id":"FLOW",
+      "launched":false
+    },{
+      "command":"lua /home/slasten/planGOD/tools/prose_grok_chain.lua --provider 'deepseek' --question 'Что остаётся, когда процесс больше не может продолжаться?' --count 1000 --out '/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_070628/MANIFEST/manifest_chain1000.json'",
+      "out":"/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_070628/MANIFEST/manifest_chain1000.json",
+      "question":"Что остаётся, когда процесс больше не может продолжаться?",
+      "status":"pending",
+      "id":"MANIFEST",
+      "launched":false
+    },{
+      "command":"lua /home/slasten/planGOD/tools/prose_grok_chain.lua --provider 'deepseek' --question 'Как полная вера в правило делает его вечной основой реальности?' --count 1000 --out '/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_070628/RUNTIME/runtime_chain1000.json'",
+      "out":"/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_070628/RUNTIME/runtime_chain1000.json",
+      "question":"Как полная вера в правило делает его вечной основой реальности?",
+      "status":"pending",
+      "id":"RUNTIME",
+      "launched":false
+    }],
+  "include_done":false
+}

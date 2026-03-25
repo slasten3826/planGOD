@@ -11,6 +11,7 @@ local function parse_args(argv)
         question = "Как полная отстранённость рождает предельную близость?",
         count = 3,
         continue_from = nil,
+        out = nil,
         timeout = 180,
         temperature = 0.3,
         max_tokens = 220,
@@ -33,6 +34,9 @@ local function parse_args(argv)
             i = i + 2
         elseif a == "--continue-from" then
             opts.continue_from = argv[i + 1]
+            i = i + 2
+        elseif a == "--out" then
+            opts.out = argv[i + 1]
             i = i + 2
         elseif a == "--timeout" then
             opts.timeout = tonumber(argv[i + 1]) or opts.timeout
@@ -61,6 +65,12 @@ local function read_json(path)
     f:close()
     local data = json.decode(text)
     return data
+end
+
+local function make_report_path()
+    ensure_dir("workspace/tests")
+    local ts = os.date("%Y%m%d_%H%M%S")
+    return string.format("workspace/tests/%s_prose_grok_chain.json", ts), ts
 end
 
 local function build_messages(question, prev_answer)
@@ -105,12 +115,29 @@ local function build_messages(question, prev_answer)
     }, user
 end
 
-local function save_report(opts, steps)
-    ensure_dir("workspace/tests")
-    local ts = os.date("%Y%m%d_%H%M%S")
-    local path = string.format("workspace/tests/%s_prose_grok_chain.json", ts)
+local function write_report(path, payload)
+    local f = assert(io.open(path, "w"))
+    f:write(json.encode(payload, { indent = true }))
+    f:close()
+end
+
+local function save_report(path, payload)
+    payload.updated_at = os.date("%Y%m%d_%H%M%S")
+    payload.last_completed_step = 0
+    for _, step in ipairs(payload.steps or {}) do
+        if step.status == "completed" then
+            payload.last_completed_step = step.step
+        end
+    end
+    write_report(path, payload)
+end
+
+local function build_payload(opts, steps, ts)
     local payload = {
         timestamp = ts,
+        started_at = ts,
+        updated_at = ts,
+        finished_at = nil,
         mode = "prose_grok_chain",
         provider = opts.provider or os.getenv("EVA_LLM_PROVIDER") or "deepseek",
         model = opts.model,
@@ -118,28 +145,62 @@ local function save_report(opts, steps)
         count = opts.count,
         steps = steps,
     }
-    local f = assert(io.open(path, "w"))
-    f:write(json.encode(payload, { indent = true }))
-    f:close()
-    return path
+    return payload
 end
 
 local opts = parse_args(arg)
 local steps = {}
 local prev_answer = nil
 local start_step = 1
+local report_path = opts.out
+local report_ts = os.date("%Y%m%d_%H%M%S")
+local payload = nil
 
 if opts.continue_from then
     local prior = read_json(opts.continue_from)
     local prior_steps = prior.steps or {}
-    if #prior_steps > 0 then
-        opts.question = prior.question or opts.question
-        prev_answer = prior_steps[#prior_steps].output
-        start_step = #prior_steps + 1
-        for _, step in ipairs(prior_steps) do
+    report_path = report_path or opts.continue_from
+    report_ts = prior.timestamp or report_ts
+    opts.question = prior.question or opts.question
+
+    local last_completed = 0
+    for _, step in ipairs(prior_steps) do
+        if step.status == "completed" and step.output then
             steps[#steps + 1] = step
+            prev_answer = step.output
+            last_completed = step.step or last_completed
         end
     end
+
+    if last_completed > 0 then
+        start_step = last_completed + 1
+    end
+end
+
+if not report_path then
+    report_path, report_ts = make_report_path()
+end
+
+payload = build_payload(opts, steps, report_ts)
+if opts.continue_from then
+    payload.started_at = (read_json(opts.continue_from).started_at or report_ts)
+end
+
+save_report(report_path, payload)
+
+print("== question ==")
+print(opts.question)
+print("")
+print("== report ==")
+print(report_path)
+print("")
+print(string.format("== checkpoint == start_step=%d", start_step))
+print("")
+
+if start_step > opts.count then
+    payload.finished_at = os.date("%Y%m%d_%H%M%S")
+    save_report(report_path, payload)
+    os.exit(0)
 end
 
 for step = start_step, opts.count do
@@ -152,13 +213,16 @@ for step = start_step, opts.count do
         max_tokens = opts.max_tokens,
     })
 
-    steps[#steps + 1] = {
+    local record = {
         step = step,
         prompt = prompt,
         output = answer,
         error = err,
         status = answer and "completed" or "error",
     }
+    steps[#steps + 1] = record
+    payload.steps = steps
+    save_report(report_path, payload)
 
     if not answer then
         break
@@ -167,11 +231,9 @@ for step = start_step, opts.count do
     prev_answer = answer
 end
 
-local report_path = save_report(opts, steps)
+payload.finished_at = os.date("%Y%m%d_%H%M%S")
+save_report(report_path, payload)
 
-print("== question ==")
-print(opts.question)
-print("")
 print("== chain ==")
 for _, step in ipairs(steps) do
     print(string.format("[%d] status=%s", step.step, tostring(step.status)))
@@ -182,5 +244,3 @@ for _, step in ipairs(steps) do
     end
     print("")
 end
-print("== report ==")
-print(report_path)

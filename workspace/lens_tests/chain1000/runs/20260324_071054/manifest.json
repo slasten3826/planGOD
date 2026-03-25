@@ -1,0 +1,19 @@
+{
+  "include_done":false,
+  "dry_run":false,
+  "started_at":"20260324_071054",
+  "out_dir":"/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_071054",
+  "operators":[{
+      "id":"CHOOSE",
+      "question":"Как отказ от любого выбора делает выбор неизбежным и окончательным?",
+      "exit_code":true,
+      "out":"/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_071054/CHOOSE/choose_chain1000.json",
+      "launched":true,
+      "status":"pending",
+      "command":"lua /home/slasten/planGOD/tools/prose_grok_chain.lua --provider 'deepseek' --question 'Как отказ от любого выбора делает выбор неизбежным и окончательным?' --count 1000 --out '/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_071054/CHOOSE/choose_chain1000.json'"
+    }],
+  "count":1000,
+  "finished_at":"20260324_082924",
+  "provider":"deepseek",
+  "only":"CHOOSE"
+}

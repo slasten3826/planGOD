@@ -1,0 +1,19 @@
+{
+  "only":"ENCODE",
+  "provider":"deepseek",
+  "dry_run":false,
+  "started_at":"20260325_093551",
+  "include_done":false,
+  "operators":[{
+      "status":"pending",
+      "launched":true,
+      "out":"/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260325_093551/ENCODE/encode_chain10000.json",
+      "id":"ENCODE",
+      "exit_code":true,
+      "command":"lua /home/slasten/planGOD/tools/prose_grok_chain.lua --provider 'deepseek' --question 'Как максимальная попытка сохранить всё без потерь рождает максимальную потерю информации?' --count 10000 --out '/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260325_093551/ENCODE/encode_chain10000.json'",
+      "question":"Как максимальная попытка сохранить всё без потерь рождает максимальную потерю информации?"
+    }],
+  "out_dir":"/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260325_093551",
+  "count":10000,
+  "finished_at":"20260325_093551"
+}

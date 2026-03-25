@@ -1,0 +1,19 @@
+{
+  "only":"DISSOLVE",
+  "operators":[{
+      "out":"/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_175545/DISSOLVE/dissolve_chain10000.json",
+      "question":"Как полная уверенность в неизменности понятия рождает его мгновенное растворение в процессе?",
+      "launched":true,
+      "id":"DISSOLVE",
+      "exit_code":true,
+      "command":"lua /home/slasten/planGOD/tools/prose_grok_chain.lua --provider 'deepseek' --question 'Как полная уверенность в неизменности понятия рождает его мгновенное растворение в процессе?' --count 10000 --out '/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_175545/DISSOLVE/dissolve_chain10000.json'",
+      "status":"pending"
+    }],
+  "include_done":false,
+  "provider":"deepseek",
+  "count":10000,
+  "dry_run":false,
+  "out_dir":"/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_175545",
+  "finished_at":"20260325_040002",
+  "started_at":"20260324_175545"
+}

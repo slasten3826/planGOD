@@ -1,0 +1,19 @@
+{
+  "out_dir":"/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_102617",
+  "dry_run":false,
+  "operators":[{
+      "command":"lua /home/slasten/planGOD/tools/prose_grok_chain.lua --provider 'deepseek' --question 'Как полное принятие конечности рождает бесконечный цикл?' --count 2000 --out '/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_102617/CYCLE/cycle_chain2000.json'",
+      "id":"CYCLE",
+      "out":"/home/slasten/planGOD/workspace/lens_tests/chain1000/runs/20260324_102617/CYCLE/cycle_chain2000.json",
+      "launched":true,
+      "exit_code":true,
+      "question":"Как полное принятие конечности рождает бесконечный цикл?",
+      "status":"pending"
+    }],
+  "started_at":"20260324_102617",
+  "include_done":false,
+  "only":"CYCLE",
+  "provider":"deepseek",
+  "finished_at":"20260324_132353",
+  "count":2000
+}
